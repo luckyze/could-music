@@ -1,0 +1,142 @@
+{
+  "id": "1649440",
+  "name": "网易云音乐",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1254711",
+      "name": "48上一首",
+      "font_class": "48shangyishou",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "1254713",
+      "name": "49下一首",
+      "font_class": "49xiayishou",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "2325905",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "3695772",
+      "name": "播放",
+      "font_class": "bofang-yuanshijituantubiao",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "7587975",
+      "name": "暂停",
+      "font_class": "zanting",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "6582264",
+      "name": "播放2",
+      "font_class": "bofang1",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "98490",
+      "name": "播放",
+      "font_class": "weibiaoti1",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "1037749",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "1185945",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "2076303",
+      "name": " 日历",
+      "font_class": "rili",
+      "unicode": "e89e",
+      "unicode_decimal": 59550
+    },
+    {
+      "icon_id": "2700123",
+      "name": "问号",
+      "font_class": "wenhao",
+      "unicode": "e725",
+      "unicode_decimal": 59173
+    },
+    {
+      "icon_id": "3315126",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "4608957",
+      "name": "音乐",
+      "font_class": "yinle",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "6299338",
+      "name": "列表",
+      "font_class": "icon-",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "7550214",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "7550221",
+      "name": "更多_竖",
+      "font_class": "gengduo",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "9402968",
+      "name": "尖括号-左",
+      "font_class": "changyongicon-",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "10060844",
+      "name": "排行榜",
+      "font_class": "paihangbang",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "12575463",
+      "name": "SongList 歌单",
+      "font_class": "SongListgedan",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    }
+  ]
+}

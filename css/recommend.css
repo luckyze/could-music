@@ -1,0 +1,253 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:active{
+	color: #333;
+}
+html,body{
+	height: 100%;
+}
+
+.recommend-wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+}
+
+/* header start */
+
+.rec-header{
+	width: 100%;
+	height: 1.58rem;
+	padding: 0.19rem 0.13rem 0;
+	box-sizing: border-box;
+	
+}
+.rec-header .rec-control{
+	position: fixed;
+	top: 0.19rem;
+	left: 0.13rem;
+	right: 0.13rem;
+	height: 0.2rem;
+
+	display: flex;
+	justify-content: space-between;
+}
+.rec-header .rec-control a{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.rec-header .rec-control .back{
+	width: 0.2rem;
+
+}
+.rec-header .rec-control .problem{
+	width: 0.2rem;
+
+}
+.rec-header .rec-control .iconfont{
+	font-size: 0.16rem;
+	color: #fff;
+}
+
+/* rec-content start */
+.rec-content{
+	position: absolute;
+	top: 1.46rem;
+	bottom: -0.8rem;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 0.14rem 0.14rem 0 0;
+	overflow: hidden;
+}
+.rec-content .res-title{
+	display: flex;
+	justify-content: space-between;
+	height: 0.4rem;
+	padding: 0.11rem;
+	box-sizing: border-box;
+	/* background-color: red; */
+}
+.rec-content .res-title a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.rec-content .res-title .play{
+	width: 0.77rem;
+}
+.rec-content .res-title .more{
+	width: 0.5rem;
+}
+.rec-content .res-title .iconfont{
+	font-size: 0.16rem;
+	color: #333;
+	margin-right: 0.04rem;
+}
+.rec-content .res-title .name{
+	font-size: 0.12rem;
+}
+
+.rec-content .content-wrap{
+	position: absolute;
+	top: 0.4rem;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	padding:0 0.13rem;
+	box-sizing: border-box;
+}
+.rec-content .content-wrap .rec-item{
+	/* height: 0.5rem; */
+
+}
+.rec-content .content-wrap .rec-item a{
+	display: flex;
+	justify-content: space-between;
+	padding: 0.077rem 0;
+}
+.rec-content .content-wrap .rec-item a:active{
+	background-color: #ccc;
+}
+.rec-content .content-wrap .rec-item .item-info{
+	flex: 1;
+	display: flex;
+	height: 0.32rem;
+
+}
+.rec-content .content-wrap .rec-item .item-info .info-img{
+	display: flex;
+	width: 0.32rem;
+	height: 0.32rem;
+	flex: 0 0 0.32rem;
+	/* background-color: red; */
+}
+.rec-content .content-wrap .rec-item .item-info .info-img img{
+	width: 100%;
+}
+.rec-content .content-wrap .rec-item .item-info .info{
+	
+	margin-left: 0.08rem;
+
+}
+.rec-content .content-wrap .rec-item .item-info .info .info-title{
+	font-size: 0.11rem;
+	line-height: 0.2rem;
+	color: #333;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.rec-content .content-wrap .rec-item .item-info .info .info-desc{
+	font-size: 0.08rem;
+	line-height: 0.14rem;
+	color: #808080;
+}
+.rec-content .content-wrap .rec-item .item-play{
+	display: flex;
+	width: 0.42rem;
+	flex: 0 0 0.42rem;
+	height: 0.32rem;
+	/* background-color: #ccc; */
+}
+.rec-content .content-wrap .rec-item .item-play .iconfont{
+	font-size: 0.24rem;
+	color: #999;
+	padding-top: 0.04rem;
+}
+
+/* bottom start */
+
+.control{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 0.39rem;
+	display: none;
+	background-color: #fff;
+	padding: 0.04rem 0.05rem;
+	box-sizing: border-box;
+}
+
+.control a{
+	display: flex;
+
+}
+.control .control-content{
+	flex: 1;
+	display: flex;
+
+}
+.control .control-content .con-info{
+	flex: 1;
+}
+.control .control-content .con-info .con-title{
+	font-size: 0.1rem;
+	color: #333;
+	line-height: 0.17rem;
+}
+.control .control-content .con-info .con-desc{
+	font-size: 0.1rem;
+	color: #909090;
+	line-height: 0.14rem;
+}
+.control .con-play{
+	display: flex;
+	align-items: center;
+	width: 0.58rem;
+	flex: 0 0 0.58rem;
+
+}
+.control .con-play .con-playing{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 0.2rem;
+	height: 0.2rem;
+	/* border: 0.01rem solid #ff3a3a; */
+	border-radius: 50%;
+}
+.control .control-content .con-img{
+	width: 0.30rem;
+	flex: 0 0 0.30rem;
+	height: 0.30rem;
+	border-radius: 50%;
+	margin-right: 0.04rem;
+	display: flex;
+	overflow: hidden;
+
+}
+.control .control-content .con-img img{
+	width: 100%;
+	height: 100%;
+}
+.control .con-play .con-playing .icon-zanting{
+	color: #999;
+	font-size: 0.22rem;
+	width: 100%;
+	height: 100%;
+	line-height: 0.2rem;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.control .con-play .icon-SongListgedan{
+	width: 0.21rem;
+	height: 0.21rem;
+	text-align: center;
+	margin-left: 0.1rem;
+	font-size: 0.22rem;
+	color:#999;
+}
